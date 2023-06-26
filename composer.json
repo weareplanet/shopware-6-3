@@ -1,0 +1,58 @@
+{
+    "authors": [
+        {
+            "homepage": "https://www.weareplanet.com/",
+            "name": "WeArePlanet"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WeArePlanetPayment\\": "src/"
+        }
+    },
+    "conflict": {
+        "shopware/administration": "<6,>=6.4",
+        "shopware/storefront": "<6,>=6.4"
+    },
+    "description": "WeArePlanet integration for Shopware 6",
+    "extra": {
+        "copyright": "(c) by WeArePlanet",
+        "description": {
+            "de-DE": "WeArePlanet integration f\u00fcr Shopware 6",
+            "en-GB": "WeArePlanet integration for Shopware 6"
+        },
+        "label": {
+            "de-DE": "WeArePlanet Produkte f\u00fcr Shopware 6",
+            "en-GB": "WeArePlanet Products for Shopware 6"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.weareplanet.com/",
+            "en-GB": "https://www.weareplanet.com/"
+        },
+        "supportLink": {
+            "de-DE": "https://paymentshub.weareplanet.com/space/select?target=/support",
+            "en-GB": "https://paymentshub.weareplanet.com/space/select?target=/support"
+        },
+        "shopware-plugin-class": "WeArePlanetPayment\\WeArePlanetPayment"
+    },
+    "homepage": "https://www.weareplanet.com//",
+    "keywords": [
+        "WeArePlanet",
+        "payment",
+        "php",
+        "shopware"
+    ],
+    "license": "Apache-2.0",
+    "name": "weareplanet/shopware-6-3",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "php": ">=7.2",
+        "shopware/core": "~6.2.3 || ~6.3",
+        "shopware/storefront": "~6.2.3 || ~6.3",
+        "weareplanet/sdk": "3.0.1"
+    },
+    "type": "shopware-platform-plugin",
+    "version": "3.1.7"
+}
